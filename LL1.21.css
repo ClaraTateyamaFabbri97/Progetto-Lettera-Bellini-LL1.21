@@ -1,0 +1,153 @@
+.line {
+	margin-right: 2%;
+	font-family: monospace;
+}
+.right {
+	margin-left: 60%;
+}
+.super {
+	vertical-align: super;
+	font-size: 70%;
+}
+.sub {
+	vertical-align: sub;
+	font-size: 80%;
+}
+.dist {
+	font-family: Garamond, Times, serif;
+	cursor: help;
+}
+.refer {
+	text-align: left;
+}
+.container {
+	margin: 0 15% 2% 15%;
+	padding: 0 3% 1% 1%;
+	background-color: #e9dbaf;
+	border:2px solid #b47331;
+	border-radius: 7px;
+}
+.img {
+	position: relative;
+}
+.img>img {
+	width: 100%;
+	height:90%;
+	border: 1px solid black;
+	align: center;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+body {
+	padding-bottom: 20%;
+	margin-left:2%;
+	font-family: Garamond, Times, serif;
+	font-size: 1.2vw;
+	background: linear-gradient(
+	#64401b,
+	#b47331,
+	#deb387,
+	#b47331,
+	#64401b);
+}
+h1 {
+	font-family: Arial, Helvetica, Sans-serif;
+	margin-top: 0;
+	padding-top: 1%;
+}
+p {
+	text-align: justify;
+	line-height: 145%;
+}
+
+button {
+	background-color: burlywood;
+	border: 3px solid #804f11;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 100%;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e8ad5f;
+}
+#header img {
+	border: 10px solid black;
+}
+#header h3 {
+	color: rgb(65, 65, 65);
+}
+#header h4 {
+	color: rgb(100, 100, 100);
+}
+#blocco-visual {
+	margin: 0 2% 2% 2%;
+	padding-bottom: 1%;
+	background-color: #e9dbaf;
+	border: 2px solid #b47331;
+	border-radius: 7px;
+}
+#flexbox {
+	margin-top: 1%;
+	margin-left:1%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#flexbox h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+#scansioni {
+	width: 50%;
+}
+#testo {
+	width: 50%;
+	padding: 0 1%;
+}
+#testo div>div {
+	display: inline;
+}
+#testo a {
+	text-decoration: none;
+}
+#testo br {
+	content: " ";
+	display: block;
+	margin-top: 0.7%;
+}
+#frasi {
+	width: 10%;
+}
+
+#arrowb {
+	align-self: center;
+	width: 2%;
+	height: 2%;
+	margin: 1%;
+	cursor: pointer;
+}
+
+#arrowf {
+	-moz-transform: scaleX(-1);
+                  -o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	align-self: center;
+	width: 2%;
+	height: 2%;
+	margin: 1%;
+	cursor: pointer;
+}
+
+
+
+#appendici {
+	clear: both;
+}
